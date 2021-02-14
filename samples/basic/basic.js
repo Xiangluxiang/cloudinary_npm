@@ -5,11 +5,14 @@ var cloudinary = require('cloudinary').v2;
 var uploads = {};
 
 // set your env variable CLOUDINARY_URL or set the following configuration
-/* cloudinary.config({
-  cloud_name: '',
-  api_key: '',
-  api_secret: ''
-}); */
+
+
+cloudinary.config({
+  cloud_name: 'newcomer',
+  api_key: '975897253762598',
+  api_secret: '7se7n1-_eY_yq-7kiiKOx03ctvI'
+}); 
+
 
 console.log("** ** ** ** ** ** ** ** ** Uploads ** ** ** ** ** ** ** ** ** **");
 
